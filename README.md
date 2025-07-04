@@ -1,7 +1,7 @@
 # Folder structure
 
-- `src` - source code for your kaplay project
-- `dist` - distribution folder, contains your index.html, built js bundle and static assets
+- `src` - source code for the kaplay project/game
+- `build` - for distribution, or host game in any provider I guess
 
 
 ## Development
@@ -18,10 +18,10 @@ will start a dev server at http://localhost:8000
 $ npm run build
 ```
 
-will build your js files into `dist/`
+will build the js files into `dist/`, take notes that `dist/` is on gitignore
 
 ```sh
 $ npm run zip
 ```
 
-will build your game and package into a .zip file, you can upload to your server or itch.io / newground etc.
+will build the game and package into a .zip file, you can upload to your server or itch.io / newground etc.
