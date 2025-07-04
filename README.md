@@ -1,7 +1,7 @@
 # Folder structure
 
 - `src` - source code for the kaplay project/game
-- `build` - for distribution, or host game in any provider I guess
+- `dist` - for distribution, or host game in any provider I guess
 
 
 ## Development
